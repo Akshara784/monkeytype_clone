@@ -1,0 +1,39 @@
+<html>
+<head>
+  <title>A monkeytype clone</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body background="background.webp">
+    <div class="content">
+      <div class="content-box"></div>
+      <div class="typing-test"></div>
+      <div class="word"></div>
+      <h1> Monkeytype Clone</h1>
+      <center>
+      <input id="typing-space" placeholder="">
+      <span id="sentence">The quick brown fox jumps over the lazy dog.</span>
+      <span id="sentence_2"></span>
+      <button class="btn btn-info" onclick="replace()">↻</button>
+      <button class="btn btn-success" onclick="done()">Done</button>
+      <button class="btn btn-success" onclick="start()">Start</button>
+      <b>
+      <div id="js_timer">
+        <div id="timer">
+          00:00
+        </div>
+        
+      <div>
+    </b>
+    </center>
+    <script src="main.js"></script>
+    </div>
+</body>
